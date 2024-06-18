@@ -1,0 +1,97 @@
+footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.leftFooter {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftFooter > h3 {
+    font-family: "Roboto";
+    font-size: 1.2vmax;
+}
+.leftFooter > p {
+    text-align: center;
+    font-size: 1.2vmax;
+    padding-bottom: 0.7vmax;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.leftFooter > img {
+    width: 7vmax;
+    margin: 0.5vmax;
+    cursor: pointer;
+}
+  
+.midFooter {
+    margin-top: -1.5vmax;
+    width: 60%;
+    text-align: center;
+}
+  
+.midFooter > h1 {
+    font-size: 3vmax;
+    font-family: "Roboto";
+    /* color: #635dc0; */
+    color: tomato;
+    /* background-image: linear-gradient(to right, #635dc0, #3027ae); */
+}
+
+.midFooter > a > img {
+    width: 30%;
+    margin-bottom: -1rem;
+}
+
+.midFooter > p {
+    max-width: 60%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 0.8vmax auto;
+}
+  
+.rightFooter {
+    margin-top: -0.5rem;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightFooter > h4 {
+    font-family: "Roboto";
+    font-size: 1.4vmax;
+    padding-bottom: 0.6vmax;
+}
+.rightFooter > a {
+    text-decoration: none;
+    font-size: 1vmax;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    transition: all 0.5s;
+    margin: 0.3vmax;
+}
+  
+.rightFooter > a:hover {
+    /* color: #a64eda; */
+    color: tomato;
+}
+
+@media screen and (max-width: 600px) {
+    .leftFooter > p {
+        padding-top: 3vmax;
+    }
+    .midFooter > a > img {
+        width: 60%;
+    }
+    .midFooter > p {
+        max-width: 60%;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        margin: 0.8vmax auto;
+        font-size: 0.6rem;
+    }
+}
