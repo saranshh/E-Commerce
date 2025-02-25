@@ -30,10 +30,17 @@ app.use("/api/v1", payment);
 // Middleware for errors
 app.use(errorMiddleware);
 
-// app.use(express.static(path.resolve(__dirname, "../frontend/client/build")));
+app.use(express.static(path.resolve(__dirname, "../frontend/client/build")));
 
-// app.get("*", (req, res) => {
-//   res.sendFile(path.resolve(__dirname, "../frontend/client/build/index.html"));
-// });
+app.get("/api/v1/health", (req, res) => {
+    res.status(200).json({
+      success: true,
+      message: "Server is running smoothly",
+    });
+});
+  
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "../frontend/client/build/index.html"));
+});
 
 module.exports = app;    
