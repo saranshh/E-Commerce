@@ -12,7 +12,7 @@
 # production
 /frontend/build
 
-.env
+/.env
 
 # misc
 /backend/config/config.env
