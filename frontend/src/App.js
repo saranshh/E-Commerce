@@ -47,6 +47,8 @@ import NotFound from "./component/layout/NotFound/NotFound";
 
 function App() {
 
+axios.defaults.baseURL = "https://paytm-mall-server.vercel.app/";
+
 const {isAuthenticated , user} = useSelector(state => state.user)
 
 const [stripeApiKey, setStripeApiKey] = useState("pk_test_51MLn1pSIVwHQbNUxYlxmdNRWCVlZaPutPiRE24G6Ld7a8s8fRXspf1Nm26n3NsnZjPNcqjf5EZoBysdphIYN6n2F00u4MbZBZP");

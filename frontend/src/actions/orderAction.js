@@ -23,6 +23,8 @@ import {
   } from "../constants/orderConstants";
   
   import axios from "axios";
+
+  axios.defaults.baseURL = "https://paytm-mall-server.vercel.app/";
   
   // Create Order
   export const createOrder = (order) => async (dispatch) => {

@@ -4,6 +4,8 @@ import {
     SAVE_SHIPPING_INFO,
   } from "../constants/cartConstants";
   import axios from "axios";
+
+  axios.defaults.baseURL = "https://paytm-mall-server.vercel.app/";
   
   // Add to Cart
   export const addItemsToCart = (id, quantity) => async (dispatch, getState) => {

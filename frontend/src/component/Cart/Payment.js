@@ -21,6 +21,8 @@ import { createOrder, clearErrors } from "../../actions/orderAction";
 import { useNavigate } from "react-router-dom";
 
 const Payment = () => {
+  axios.defaults.baseURL = "https://paytm-mall-server.vercel.app/";
+  
   const orderInfo = JSON.parse(sessionStorage.getItem("orderInfo"));
 
   const dispatch = useDispatch();
