@@ -24,7 +24,7 @@ import {
   
   import axios from "axios";
 
-  axios.defaults.baseURL = "https://paytm-mall-server.vercel.app/";
+  axios.defaults.baseURL = "https://paytm-server-mtwb.onrender.com/";
   
   // Create Order
   export const createOrder = (order) => async (dispatch) => {

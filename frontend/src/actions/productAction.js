@@ -35,7 +35,7 @@ import {
     CLEAR_ERRORS
 } from "../constants/productConstants";
 
-axios.defaults.baseURL = "https://paytm-mall-server.vercel.app/";
+axios.defaults.baseURL = "https://paytm-server-mtwb.onrender.com/";
 
 // Get All Products
 export const getProduct = (keyword = "", currentPage = 1, price=[0, 9999], category, ratings=0) => async (dispatch) => {

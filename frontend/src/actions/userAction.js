@@ -42,7 +42,7 @@ import {
 } from "../constants/userConstants";
 import axios from "axios";
 
-axios.defaults.baseURL = "https://paytm-mall-server.vercel.app/";
+axios.defaults.baseURL = "https://paytm-server-mtwb.onrender.com/";
 
 //Login request will be given from here also data will be pulled from backend
 export const login = (email, password) => async (dispatch) => {

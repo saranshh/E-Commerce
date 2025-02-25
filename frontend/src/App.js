@@ -47,7 +47,7 @@ import NotFound from "./component/layout/NotFound/NotFound";
 
 function App() {
 
-axios.defaults.baseURL = "https://paytm-mall-server.vercel.app/";
+axios.defaults.baseURL = "https://paytm-server-mtwb.onrender.com/";
 
 const {isAuthenticated , user} = useSelector(state => state.user)
 

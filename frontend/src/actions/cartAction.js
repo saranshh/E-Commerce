@@ -5,7 +5,7 @@ import {
   } from "../constants/cartConstants";
   import axios from "axios";
 
-  axios.defaults.baseURL = "https://paytm-mall-server.vercel.app/";
+  axios.defaults.baseURL = "https://paytm-server-mtwb.onrender.com/";
   
   // Add to Cart
   export const addItemsToCart = (id, quantity) => async (dispatch, getState) => {
