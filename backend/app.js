@@ -14,7 +14,7 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 
 app.use(
     cors({
-      origin: ["https://paytm-mall-client.vercel.app", "http://localhost:3000"],   
+      origin: ["https://paytm-mart.vercel.app", "http://localhost:3000"],   
       credentials: true,   
     })
 );
