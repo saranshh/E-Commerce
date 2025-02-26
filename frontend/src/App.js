@@ -48,6 +48,7 @@ import NotFound from "./component/layout/NotFound/NotFound";
 function App() {
 
 axios.defaults.baseURL = "https://paytm-server-mtwb.onrender.com/";
+axios.defaults.withCredentials = true;
 
 const {isAuthenticated , user} = useSelector(state => state.user)
 

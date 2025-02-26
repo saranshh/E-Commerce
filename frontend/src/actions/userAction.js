@@ -43,6 +43,7 @@ import {
 import axios from "axios";
 
 axios.defaults.baseURL = "https://paytm-server-mtwb.onrender.com/";
+axios.defaults.withCredentials = true;
 
 //Login request will be given from here also data will be pulled from backend
 export const login = (email, password) => async (dispatch) => {

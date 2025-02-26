@@ -25,6 +25,7 @@ import {
   import axios from "axios";
 
   axios.defaults.baseURL = "https://paytm-server-mtwb.onrender.com/";
+  axios.defaults.withCredentials = true;
   
   // Create Order
   export const createOrder = (order) => async (dispatch) => {

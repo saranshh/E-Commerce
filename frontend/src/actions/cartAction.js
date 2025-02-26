@@ -6,7 +6,8 @@ import {
   import axios from "axios";
 
   axios.defaults.baseURL = "https://paytm-server-mtwb.onrender.com/";
-  
+  axios.defaults.withCredentials = true;
+
   // Add to Cart
   export const addItemsToCart = (id, quantity) => async (dispatch, getState) => {
     const { data } = await axios.get(`/api/v1/product/${id}`);
