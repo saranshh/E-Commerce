@@ -25,7 +25,7 @@
 * Clone the Repository
   
    ```bash
-   git clone https://github.com/yourusername/paytm-mart.git
+   git clone https://github.com/saranshh/paytm-mart.git
    cd paytm-mart
 
 * Backend Setup
