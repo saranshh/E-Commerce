@@ -23,15 +23,17 @@
 **🎯 Installation & Setup**
 
 * Clone the Repository
+  
    ```bash
    git clone https://github.com/yourusername/paytm-mart.git
-   cd paytm-mart```
+   cd paytm-mart
 
 * Backend Setup
+  
   - Install dependencies:
     ```bash
     cd backend
-    npm install```
+    npm install
   - Create a .env file and configure:
     ```bash
     PORT=4000
@@ -42,19 +44,20 @@
     STRIPE_SECRET_KEY=your_stripe_secret_key
     CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
     CLOUDINARY_API_KEY=your_cloudinary_api_key
-    CLOUDINARY_API_SECRET=your_cloudinary_api_secret```
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
   - Start the backend server:
     ``` bash
-    nodemon```
+    nodemon
 
 * Frontend Setup
+  
   - Install dependencies:
     ```bash
     cd frontend
-    npm install```
+    npm install
   - Start the frontend:
     ```bash
-       npm start```
+       npm start
 
 **💡 Contributing**
 
