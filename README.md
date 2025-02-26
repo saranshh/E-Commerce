@@ -2,7 +2,7 @@
 
 **It is a full-featured eCommerce platform that enables users to browse, shop, and manage orders efficiently. It is built with MERN stack (MongoDB, Express.js, React, Node.js) and integrates JWT authentication, Cloudinary for image uploads, and Stripe for payments.**
 
-**Features**
+**📌 Features**
 
 * 🔐 User Authentication & Authorization (JWT-based login/signup)
 * 🛒 Product Management (Add, edit, delete, and list products)
@@ -60,5 +60,4 @@
 
 *Pull requests are welcome! Feel free to fork and contribute.*
 
-***Developed with ❤️ by markdown 
-[Saransh Chaurasia](https://www.linkedin.com/in/saransh-chaurasia-8b9091203/)***
+**Developed with ❤️ by [Saransh Chaurasia](https://www.linkedin.com/in/saransh-chaurasia-8b9091203/)**
